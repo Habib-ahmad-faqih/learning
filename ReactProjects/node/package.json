@@ -1,0 +1,14 @@
+{
+  "name": "reactprojects",
+  "version": "1.0.0",
+  "description": "web ",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "habib",
+  "license": "ISC"
+
+}
+
+

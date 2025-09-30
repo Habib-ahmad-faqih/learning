@@ -1,0 +1,17 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "server",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon backend/src/server/server.js",
+    "test": "node backend/src/server/server.js"
+  },
+  "author": "habib",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fecth": "0.0.1-security"
+  }
+}

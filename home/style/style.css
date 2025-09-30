@@ -1,0 +1,167 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #ffd8be;
+}
+
+header {
+    background: #1a2338;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.logo {
+    margin-right: auto;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: all .5s ease-in-out .0s;
+
+}
+
+.logo:hover {
+    color: darkorange;
+    transition: rotate(2deg);
+    
+}
+
+.btn-cta {
+    margin-right: 10px;
+    border: none;
+    font-size: 20px;
+    padding: 6px 12px;
+    background: darkorange;
+    color: #eaeaea;
+    border-radius: 8px;
+    cursor: pointer;
+    gap: 5px;
+}
+
+nav ul {
+    display: flex;
+    padding: 20px;
+}
+
+li {
+   list-style-type: none; 
+   padding: 10px;
+}
+
+li a {
+    transition: all .5s ease-in-out .0s;
+
+
+}
+
+li a:hover {
+    color: aquamarine;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+    height: 90vh;
+    
+
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px ;
+    text-align: center;
+
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.img-video {
+    width: 100%;
+    max-width: px;
+    height: auto;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.parallax {
+    background-image: url('/home/asset/download__2_-removebg-preview.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 155vh;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #1a2338;
+    color: #eaeaea;
+    padding: 40px;
+    gap: 10px;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+.containers {
+    background-image: url('/home/asset/wow.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #fff5ba;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: black;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    width: 300px;
+    margin-top: 20px;
+    
+
+}
+
+.card-item {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+    }
