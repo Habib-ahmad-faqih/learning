@@ -11,7 +11,10 @@
   "author": "habib",
   "license": "ISC",
   "dependencies": {
+    "autoprefixer": "^9.8.8",
     "express": "^4.17.1",
-    "node-fecth": "0.0.1-security"
+    "node-fecth": "0.0.1-security",
+    "postcss": "^7.0.39",
+    "tailwindcss": "^2.2.19"
   }
 }
