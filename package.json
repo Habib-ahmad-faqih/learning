@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "autoprefixer": "^9.8.8",
+    "cros": "^1.1.0",
     "express": "^4.17.1",
     "node-fecth": "0.0.1-security",
     "postcss": "^7.0.39",

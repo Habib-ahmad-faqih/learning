@@ -8,24 +8,30 @@
     <link rel="stylesheet" href="style/style.css">
     <title>AboutMe</title>
 </head>
-  <body>
+  <body onload="document.body.classList.add('loaded')">
     
     <header>
         <h1 class="logo">AboutMe</h1>
-          <nav>
+          <nav onload="document.body.classList.add('loaded')">
              <ul>
-                 <li><a href="#">about</a></li>
+                 <li><a href="about.html">about</a></li>
                  <li><a href="#">Hobby</a></li>
-                 <li><a href="#">Kontak</a></li>
+                 <li><a href="contact.html">Contact</a></li>
              </ul>
           </nav>
-      <button class="btn-cta">Follow me</button>
+      <button class="btn-cta" id="followBtn">Follow me</button>
+      <div class="pop-up" id="pop-up">
+        <div class="popup-content">
+          <p>thanks for your following</p>
+          <button id="closePopup">close</button>
+        </div>
+      </div>
    </header>
    <div class="container">
           <div class="intro">
                 <p class="title">Hello,My Name Habib Ahmad Faqih</p>  
                 <p class="description">I Am beginner developer</p>
-               <video src="asset/legend-musashi.1920x1080.mp4" alt="" class="img-video"/>
+                <img src="asset/helo-removebg-preview.png" alt="">
          </div>
    </div>
 
@@ -35,7 +41,7 @@
            <p class="description">Ingin Menjadi programmer Handal Tapi Malas Ngoding</p>
            <img src="/home/asset/meme.jpeg" alt="">
           <div class="btn">
-            <button  class="btn-cta">Mari Bekerja Sama</button>
+            <button href="contact.html" class="btn-cta">Mari Bekerja Sama</button>
           </div>
        </div>
      </div>
